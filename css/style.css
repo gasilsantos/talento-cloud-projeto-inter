@@ -1,0 +1,165 @@
+/* Estilo para o corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para a barra de navegação e ícone */
+.navbar {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os elementos */
+    background-color: #007acc;
+    color: #fff;
+    padding: 5px;
+}
+
+/* Estilo para a lista não ordenada (ul) na barra de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+/* Estilo para os itens da lista na barra de navegação */
+nav li {
+    margin: 0 10px; /* Margens horizontal entre os itens */
+}
+
+/* Estilo para os links na barra de navegação */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilize o link quando o mouse estiver sobre ele */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o ícone */
+.center-icon {
+    margin: 0 auto; /* Centraliza horizontalmente o ícone */
+    
+}
+
+/* Estilo para os links à esquerda */
+.left-links {
+    margin-right: auto; /* Move para a esquerda o máximo possível */
+}
+
+/* Estilo para os links à direita */
+.right-links {
+    margin-left: auto; /* Move para a direita o máximo possível */
+}
+
+img#icon{
+    width:50px;
+}
+
+.pesquisa{
+    text-align: center;
+    font-family: Arial, sans-serif;
+   
+}
+
+button#botao{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #007acc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.regiao{
+    text-align: center;
+}
+ 
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Três colunas igualmente espaçadas */
+    gap: 20px; /* Espaçamento entre os cards */
+    max-width: 1200px; /* Largura máxima do grid */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para o card de blog */
+.card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Estilo para a imagem do blog */
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o título do blog */
+.card h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Estilo para a descrição curta do blog */
+.card p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o link "Leia Mais" */
+.card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilize o link quando o mouse estiver sobre ele */
+.card a:hover {
+    background-color: #0056b3;
+}
+
+img#logofooter{
+    height: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #007acc;
+    color: #fff;
+}
+
+.social-icons {
+    text-align: right; /* Alinha os ícones à direita */
+    padding: 10px;
+    padding-left: 10px;
+    
+}
+
+/* Estilo para cada ícone social */
+.icon {
+    margin-left: 10px; /* Espaçamento horizontal entre os ícones */
+    display: inline-block; /* Permite que os ícones fiquem em linha */
+   
+}
+
+/* Estilize as imagens dos ícones sociais como desejar */
+.icon img {
+    width: 30px; /* Largura dos ícones */
+    height: auto; /* Mantém a proporção da altura */
+}
+
+
+
+
+

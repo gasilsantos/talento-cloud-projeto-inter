@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Minha Página com Navbar e Ícone</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="left-links">
+            <nav>
+                <ul>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="center-icon">
+            <img  id="icon" src="img/ProzViageans-PhotoRoom.png-PhotoRoom.png" alt="Ícone">
+        </div>
+        <div class="right-links">
+            <nav>
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="pesquisa">
+        <h3>Inscreva-se para receber as melhores ofertas de pacotes e viagens</h3>
+        <input type="email" id="emailInput" placeholder="Digite seu e-mail...">
+        <button id="botao" onclick="subscribe()">Inscrever-se</button>
+    </div>
+
+    <main>
+        <!-- Conteúdo da página aqui -->
+        <div class="regiao">
+            <h2>Pontos Turísticos por Região no Brasil</h2>
+            <h3>Região Norte</h3>
+        </div>
+        <div class="blog-grid">
+            <div class="card">
+                <img src="img/teatro-amazonas-divulg.jpg" alt="Imagem do Blog 1">
+                <h2>Manaus - Teatro Amazonas</h2>
+                <p>é um ícone do auge do Ciclo da Borracha.</p>
+                <a href="#">Leia Mais</a>
+            </div>
+            <div class="card">
+                <img src="img/mercado-ver-o-peso.jpg" alt="Imagem do Blog 2">
+                <h2>Belém - Mercado Ver o Peso</h2>
+                <p> é um mercado público, localizado na zona portuária .</p>
+                <a href="#">Leia Mais</a>
+            </div>
+            <div class="card">
+                <img src="img/Anavilhanas-FOTO-Ivo-Brasil (1).jpg" alt="Imagem do Blog 3">
+                <h2>Anavilhanas - Amazonas</h2>
+                <p> é um arquipélago  situado no leito do rio Negro.</p>
+                <a href="#">Leia Mais</a>
+            </div>
+        </div>
+        <div class="regiao">
+            <h3>Região Nordeste</h3>
+        </div>
+        <div class="blog-grid">
+            <div class="card">
+                <img src="img/pelourinho.jpg" alt="nordeste1">
+                <h2>Salvador - Pelourinho</h2>
+                <p>é um ícone do auge do Ciclo da Borracha.</p>
+                <a href="#">Leia Mais</a>
+            </div>
+            <div class="card">
+                <img src="img/Praia-de-Boa-Viagem.jpg" alt="boa viagem2">
+                <h2>Recife - Praia de boa viagem</h2>
+                <p> é um mercado público, localizado na zona portuária .</p>
+                <a href="#">Leia Mais</a>
+            </div>
+            <div class="card">
+                <img src="img/lindas-dunas (1).jpg" alt="Praia de genipapu2">
+                <h2>Rio grande do norte - P.de Genipabu</h2>
+                <p> é um mercado público, localizado na zona portuária .</p>
+                <a href="#">Leia Mais</a>
+            </div>
+        </div>
+        <div class="regiao">
+            <h3>Região Centro-Oeste</h3>
+        </div>
+        <div class="blog-grid">
+            <div class="card">
+                <img src="img/congresso nacional.jpeg" alt="congresso nacional">
+                <h2>Brasília - congresso Nacional</h2>
+                <p>é o órgão constitucional que exerce, no âmbito federal, as funções do poder legislativo.</p>
+                <a href="#">Leia Mais</a>
+            </div>
+            <div class="card">
+                <img src="img/gruta-do-lago-azul-bonito-ms.jpg" alt="gruta azul">
+                <h2>Mato Grosso do Sul - Gruta Azul</h2>
+                <p>é um monumento natural no município de Bonito, Mato Grosso do Sul.</p>
+                <a href="#">Leia Mais</a>
+            </div>
+            <div class="card">
+                <img src="img/58676_chapada-dos-guimaraes.jpg" alt="chapa dos guimarães">
+                <h2>Mato grosso - Chapada dos Guimarães</h2>
+                <p>é um destino turístico já bem estabelecido no estado do Mato Grosso.</p>
+                <a href="#">Leia Mais</a>
+            </div>
+        </div>
+        <div class="regiao">
+            <h3>Região Sudeste</h3>
+        </div>
+        <div class="blog-grid">
+            <div class="card">
+                <img src="img/cristo redento.jpg" alt="cristo redentor">
+                <h2>Rio de janeiro - Cristo Redentor</h2>
+                <p>é uma estátua art déco que retrata Jesus Cristo, localizado no corcovado</p>
+                <a href="#">Leia Mais</a>
+            </div>
+            <div class="card">
+                <img src="img/masp-en-la-avenida-paulista (1).jpg" alt="masp ">
+                <h2>São Paulo - Masp</h2>
+                <p>Museu de Arte de São Paulo Assis Chateaubriand é um centro cultural.</p>
+                <a href="#">Leia Mais</a>
+            </div>
+            <div class="card">
+                <img src="img/canion-de-furnas.jpg" alt="capitólio">
+                <h2>Minas gerais - Capitólio</h2>
+                <p>Capitólio é um município brasileiro no estado de Minas Gerais.</p>
+                <a href="#">Leia Mais</a>
+            </div>
+        </div>
+        <div class="regiao">
+            <h3>Região Sul</h3>
+        </div>
+        <div class="blog-grid">
+            <div class="card">
+                <img src="img/jardim-botanico-de-curitiba (1).jpg" alt="jardim botanico">
+                <h2>Curitiba - Jardim Botânico</h2>
+                <p>é um dos maiores cartões postais de Curitiba e o ponto turístico mais visitado da cidade</p>
+                <a href="#">Leia Mais</a>
+            </div>
+            <div class="card">
+                <img src="img/lago negro.jpeg" alt="lago negro gramado ">
+                <h2>Gramado - Lago negro</h2>
+                <p>é um lago artificial situado em Gramado.</p>
+                <a href="#">Leia Mais</a>
+            </div>
+            <div class="card">
+                <img src="img/Caminho-dos-Canyons (1).webp" alt="caminho dos Caminho-dos-Canyons">
+                <h2>Santa Catarina - Caminho dos Canyons</h2>
+                <p>Os Cânions catarinenses são uma ótima pedida para quem gosta de natureza.</p>
+                <a href="#">Leia Mais</a>
+            </div>
+        </div>
+        <footer>
+             <img id="logofooter" src="img/ProzViageans-PhotoRoom.png-PhotoRoom.png" alt="logo">
+             <p> &copy; ProzViageans todos os direitos Reservados</p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><img id="social" src="social-icon/367582_facebook_social_icon.png" alt="facebook" ></a>
+                <a href="https://www.instagram.com/prozeducacaobr/" target="_blank"><img id="social" src="social-icon/5335781_camera_instagram_social media_instagram logo_icon.png" alt="4691567_facebook_icon"></a>
+            </div>
+        </footer>   
+           
+
+    </main>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
