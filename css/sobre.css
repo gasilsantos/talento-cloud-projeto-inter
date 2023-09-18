@@ -1,0 +1,27 @@
+.container {
+    display: flex; /* Faz com que os elementos dentro se comportem como flex items */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    height: 100vh; /* Define a altura do container para ocupar toda a altura da viewport */
+}
+
+/* Estilização do conteúdo */
+.content {
+    display: flex; /* Faz com que a imagem e o texto fiquem lado a lado */
+    max-width: 800px; /* Define a largura máxima do conteúdo */
+    padding: 20px; /* Espaçamento interno para melhorar a aparência */
+    background-color: #f2f2f2; /* Cor de fundo do conteúdo */
+    border: 1px solid #ccc; /* Borda para destacar o conteúdo */
+}
+
+/* Estilização da imagem */
+.content img {
+    max-width: 50%; /* Define a largura máxima da imagem */
+    height: auto; /* Mantém a proporção original da imagem */
+    margin-right: 20px; /* Espaço à direita da imagem */
+}
+
+/* Estilização do texto */
+.content p {
+    flex-grow: 1; /* Faz com que o texto ocupe o espaço restante */
+}
