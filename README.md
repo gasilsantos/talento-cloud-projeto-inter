@@ -6,6 +6,8 @@
  Prozviagens é um blog de viagens criado para mostrar aos brasileiros os melhores pontos turísticos por cada região, norte, nordeste centro-oeste, sudeste e sul o site tem um 
  pequeno modal com javascript e cinco páginas: Home, Contato, Sobre, Post1 e Post2.
 
+https://user-images.githubusercontent.com/102256288/269002893-98905ecd-0180-414b-aade-390faa9e1024.png
+
 # tecnologias usadas
   Html, Css, Javascript 
   
