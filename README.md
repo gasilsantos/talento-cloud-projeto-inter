@@ -16,4 +16,4 @@
   Html, Css, Javascript 
   
 # integrantes do grupo 
-  Gabriel da silva santos, Ricado cruz, Breninho, Douglas marquezini, fábio silva, Gabriel moreno
+  Gabriel da silva santos, Ricado cruz, Breninho, Douglas marquezini, fábio silva.
