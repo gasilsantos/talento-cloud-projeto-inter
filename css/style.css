@@ -1,9 +1,14 @@
 /* Estilo para o corpo do documento */
+
+
 body {
+    background-color: lightyellow;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
+
+
 
 /* Estilo para a barra de navegação e ícone */
 .navbar {
@@ -77,13 +82,14 @@ button#botao{
 }
  
 .blog-grid {
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Três colunas igualmente espaçadas */
     gap: 20px; /* Espaçamento entre os cards */
     max-width: 1200px; /* Largura máxima do grid */
     margin: 0 auto;
     padding: 20px;
-}
+   
 
 /* Estilo para o card de blog */
 .card {
@@ -91,6 +97,8 @@ button#botao{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
 }
 
 /* Estilo para a imagem do blog */
