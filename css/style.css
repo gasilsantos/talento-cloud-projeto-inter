@@ -90,6 +90,7 @@ button#botao{
     margin: 0 auto;
     padding: 20px;
    
+}    
 
 /* Estilo para o card de blog */
 .card {
@@ -99,7 +100,9 @@ button#botao{
     text-align: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
-}
+
+   
+
 
 /* Estilo para a imagem do blog */
 .card img {
@@ -166,6 +169,7 @@ footer{
     width: 30px; /* Largura dos ícones */
     height: auto; /* Mantém a proporção da altura */
 }
+
 
 
 
