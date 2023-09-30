@@ -1,0 +1,180 @@
+body {
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os elementos */
+    background-color: #007acc;
+    color: #fff;
+    padding: 5px;
+}
+
+/* Estilo para a lista não ordenada (ul) na barra de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+/* Estilo para os itens da lista na barra de navegação */
+nav li {
+    margin: 0 10px; /* Margens horizontal entre os itens */
+}
+
+/* Estilo para os links na barra de navegação */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilize o link quando o mouse estiver sobre ele */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o ícone */
+.center-icon {
+    margin: 0 auto; /* Centraliza horizontalmente o ícone */
+    
+}
+
+/* Estilo para os links à esquerda */
+.left-links {
+    margin-right: auto; /* Move para a esquerda o máximo possível */
+}
+
+/* Estilo para os links à direita */
+.right-links {
+    margin-left: auto; /* Move para a direita o máximo possível */
+}
+
+img#icon{
+    width:50px;
+}
+
+/* Estilo para o banner */
+header {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: lightyellow; /* Cor de fundo opcional */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilizando a imagem do banner */
+header img {
+    width: 100%; /* Garante que a imagem não ultrapasse a largura do seu contêiner */
+    height: 500px; /* Mantém a proporção da imagem */
+    background-position: center center;
+    background-size: cover;
+    padding-top: 0px;
+    margin: -11px;
+    top: 100px;
+    display: block; /* Remove margens indesejadas ao redor da imagem */
+    margin: 0px; /* Centraliza a imagem horizontalmente */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 5px;
+}
+
+
+
+main{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+iframe{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+img#logofooter{
+    height: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #007acc;
+    color: #fff;
+    padding-bottom: 2px;
+    
+}
+
+.social-icons {
+    text-align: right; /* Alinha os ícones à direita */
+    padding: 10px;
+    padding-left: 10px;
+   
+    
+}
+
+#vilha{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+iframe{
+    border-radius: 5px;
+}
+
+ /* Estilos para o card */
+ .card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    background-color: #fff;
+}
+
+/* Estilos para a imagem */
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para o conteúdo do card */
+.card-content {
+    padding: 20px;
+}
+
+/* Estilos para o título */
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para o texto do card */
+.card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilos para o botão "Saiba Mais" */
+.saiba-mais-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Estilizar o botão quando o cursor passar por cima */
+.saiba-mais-button:hover {
+    background-color: #0056b3;
+}

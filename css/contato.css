@@ -22,7 +22,15 @@ body {
     margin-bottom: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     border-radius: 5px;
+    margin-bottom: 20px;
 
+    
+
+}
+
+.contact-form:hover{
+    scale: 1.02;
+  transition: ease-in-out 1s;
 }
 
 .contact-form h2 {
@@ -67,4 +75,9 @@ body {
 
 .form-group button:hover {
     background-color: #0056b3;
+}
+
+#icon:hover{
+  scale: 1.08;
+  transition: ease-in-out 1s
 }

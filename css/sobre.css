@@ -6,6 +6,16 @@
 
 }
 
+#icon:hover{
+  scale: 1.09;
+  transition: ease-in-out 1s
+}
+
+.content:hover{
+  scale: 1.09;
+  transition: ease-in-out 1s
+}
+
 /* Estilização do conteúdo */
 .content {
     display: flex; /* Faz com que a imagem e o texto fiquem lado a lado */
