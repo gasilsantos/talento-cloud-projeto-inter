@@ -23,9 +23,7 @@ body {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     border-radius: 5px;
     margin-bottom: 20px;
-
-    
-
+    padding-bottom: 3px;
 }
 
 .contact-form:hover{
@@ -80,4 +78,34 @@ body {
 #icon:hover{
   scale: 1.08;
   transition: ease-in-out 1s
+}
+
+footer{  
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color:#25d366 ;
+    color:#fff ;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp{
+    margin-top: 16px;
+}
+
+.whatsapp-link:hover{
+    scale: 1.12;
+    transition: ease-in-out 1s;
 }
