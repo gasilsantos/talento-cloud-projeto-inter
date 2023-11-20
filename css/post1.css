@@ -125,54 +125,42 @@ iframe{
 
 
  /* Estilos para o card */
-.card {
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: auto;
-    background-color: #fff;
+ #cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-/* Estilos para a imagem */
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+
+}
+
 .card img {
     width: 100%;
     height: auto;
 }
 
-/* Estilos para o conteúdo do card */
-.card-content {
-    padding: 20px;
-}
-
-/* Estilos para o título */
-.card h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-/* Estilos para o texto do card */
-.card p {
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-/* Estilos para o botão "Saiba Mais" */
-.saiba-mais-button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
+.card button {
+    background-color: #007acc;
+    color: white;
     padding: 10px 20px;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    margin-top: 10px;
 }
 
-/* Estilizar o botão quando o cursor passar por cima */
-.saiba-mais-button:hover {
-    background-color: #0056b3;
+.text-center-margin {
+    margin: 0 auto;
+    width: 990px;
+    margin-bottom: 5px;
 }
